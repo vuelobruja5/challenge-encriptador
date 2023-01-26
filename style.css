@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+header{
+    background: burlywood;
+}
+
+.caja{
+    width: 940px;
+}
+
+#logoImg{
+    margin-top: 35px;
+    width: 120px;
+}
+
+.title{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    font-size: 2.5em;
+    color: #0a3871;
+}
+
+main {
+    width: 100%;
+    height: 521px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1{
+    background-color: burlywood;
+    width: 940px;
+}
+
+#textoEncriptado {
+    float: left;
+    width: 80%;
+    height: 75%;
+    display: block;
+    margin-left: 17%;
+    margin-top: 2%;
+    color:#0a3871;
+    resize: none;
+    font-size: 25px;
+    background-color: burlywood;
+    border: none;
+    outline: none;
+}
+
+#atencion {
+    font-size: large;
+    margin-left: 21%;
+    margin-bottom: 10px;
+    color: #0a3871;
+}
+
+#botonEncriptado {
+    padding: 8px;
+    color: #D8DFE8;
+    width: 25%;
+    height: 10%;
+    border-radius: 24px;
+    margin-left: 20%;
+    background-color: #0a3871;
+    font-size: larger; 
+}
+
+#botonDesencriptado {
+    padding: 15px;
+    color: #0a3871;
+    width: 25%;
+    height: 10%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: #D8DFE8;
+    font-size: larger;
+}
+
+.section2 {
+    width: 25%;
+    height: auto;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-right: 5%;
+}
+
+#imgDer {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 90%;
+    height: 55%;
+    background-color: antiquewhite;
+}
+
+#texto {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    color: #0a3871;
+    background-color: antiquewhite;
+    font-family: 'Inconsolata', monospace;
+}
+#textoDesencriptado {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+    resize: none;
+    outline: none;
+    border: none;
+    color: #0a3871;
+}
+#botonCopiar {
+    padding: 5px;
+    color: #0a3871;
+    width: 80%;
+    height: 70%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: #D8DFE8;
+    font-size: larger;
+    margin-top: 115%;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+
+    body{
+        font-family: 'Inconsolata', monospace;
+        background-color: burlywood;
+    }
+
+    .caja{
+        width: auto;
+    }
+
+    #logoImg{
+        margin-top: 35px;
+        width: auto;
+    }
+
+    .title{
+        position: static;
+        text-align: center;
+
+    }
+
+    main {
+        width: auto;
+        height: auto;
+        background-color: burlywood;
+        display: inline;
+        justify-content: none;
+    }
+
+    .section1{
+        background-color: burlywood;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #textoEncriptado {
+        float: inherit;
+        width: auto;
+        height: 100%;
+        display: block;
+        margin-top: 20%;
+        color:#0a3871;
+        resize: none;
+        font-size: 25px;
+        background-color: burlywood;
+        border: none;
+        outline: none;
+        margin-left: 38px;
+    }
+
+    #atencion {
+        font-size: large;
+        margin-left: 15%;
+        margin-bottom: 10px;
+        color: #0a3871;
+        margin-top: 40%;
+    }
+
+    #botonEncriptado {
+        padding: 8px;
+        color: #D8DFE8;
+        width: 35%;
+        height: 50%;
+        border-radius: 24px;
+        margin-left: 10%;
+        background-color: #0a3871;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 2%;
+    }
+
+    #botonDesencriptado {
+        padding: 15px;
+        padding-left: 7px;
+        color: #0a3871;
+        width: 35%;
+        height: 5%;
+        border-radius: 24px;
+        margin-left: 5%;
+        background-color: #D8DFE8;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 2%;
+    }
+
+    .section2 {
+        width: 80%;
+        height: 200px;
+        background-color: antiquewhite;
+        border-radius: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    #imgDer {
+        display: none;
+    }
+
+    #texto {
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        color: #0a3871;
+        background-color: antiquewhite;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 5%;
+    }
+    #textoDesencriptado {
+        width: 100%;
+        height: 15%;
+        margin-top: 5%;
+        text-align: center;
+        background-color: antiquewhite;
+        font-family: 'Inconsolata', monospace;
+        font-size: large;
+        resize: none;
+        outline: none;
+        border: none;
+        color: #0a3871;
+    }
+    #botonCopiar {
+        padding: 5px;
+        color: #0a3871;
+        width: 80%;
+        height: 70%;
+        border-radius: 24px;
+        margin-left: 10%;
+        background-color: #D8DFE8;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 25%;
+    }
+    footer {
+        width: 100%;
+        height: 50px;
+        background-color: burlywood;
+        text-align: center;
+    }
+
+}
